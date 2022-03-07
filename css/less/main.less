@@ -1,9 +1,17 @@
 :root {
-	--clr-base: #000;
-	--clr-att: #f00;
+	--clr-base: #212B36;
+	--clr-base-second: #454F5B;
+	--clr-att: #2DB872;
+	--clr-att-second: #A2DD83;
+    --clr-satt: #FA465A;
+    --clr-satt-second: #FF889F;
+    --clr-bg: #f4f4f4;
+    --clr-bg-second: #f7f7f7;
+    --clr-border: #dfdfdf;
+    --clr-second: #9FA3A8;
 
-	--min: 320px;
-	--max: 1200px;
+	--min: 360px;
+	--max: 1500px;
 
 	font-size: 10px;
 }
@@ -17,11 +25,14 @@
 			main styles
 \* ----------------------------------- */
 body {
-	color: var(--clr-base, #000);
+	color: var(--clr-base, #212B36);
 	background: #fff;
+    font-size: 14px;
+    line-height: 21/14;
 }
 p, ul, ol {
 	position: relative;
+    margin-bottom: 21/14em;
 	img {
 		max-width: 100%;
 	}
@@ -32,13 +43,26 @@ p, ul, ol {
 
 li {
 	position: relative;
+    padding-left: 22px;
+    &:before {
+        content: "";
+        display: block;
+        top: 10/14em;
+        left: 9px;
+        margin-top: -2px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: var(--clr-base);
+        position: absolute;
+    }
 }
 a {
 	text-decoration: none;
-	color: var(--clr-att, #f00);
+	color: var(--clr-att, #2DB872);
 	&:hover {
 		text-decoration: none;
-		color: var(--clr-att, #f00);
+		color: var(--clr-att, #2DB872);
 	}
 }
 a.link-main, .link-main {
@@ -56,7 +80,58 @@ h5, .h5-title,
 h6, .h6-title {
 	display: block;
 	position: relative;
+    margin: 15px 0;
     &:first-child {
         margin-top: 0;
+    }
+}
+.h1-title, h1 {
+    font-size: 24px;
+    line-height: 33/24;
+    font-weight: bold;
+    margin-top: 0;
+}
+.h2-title, h2,
+.h3-title, h3 {
+    font-size: 20px;
+    line-height: 27/20;
+    font-weight: 600;
+}
+.h4-title, h4 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25/18;
+    margin-bottom: 15px;
+}
+.hr, hr {
+    height: 1px;
+    width: 100%;
+    clear: both;
+    margin-bottom: 30px;
+    box-shadow: none;
+    border: none;
+    background: var(--clr-border);
+}
+@media (max-width: 1023px) {
+    .hr, hr {
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    .h1-title, h1 {
+        &:not(.title-small) {
+            font-size: 32px;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+    }
+    .h2-title, h2 {
+        &.title-large {
+            font-size: 32px;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
     }
 }

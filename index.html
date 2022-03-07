@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+
+        <!-- header -->
+        <header class="header">
+            <div class="inner-wrap">
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <img src="./img/main/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header-outer-wrap">
+                    <!--main-menu-wrap-->
+                    <div class="main-menu-wrap js-popup-wrap">
+                        <a href="" class="btn-action-ico btn button-border button-header ico-menu js-btn-toggle"></a>
+                        <div class="menu-content-block js-popup-block">
+                            <a href="" class="btn-action-ico ico-close js-btn-close"></a>
+                            <div class="menu-wrap">
+                                <ul class="menu">
+                                    <li><a href="">О магазине</a></li>
+                                    <li><a href="">ЛК</a></li>
+                                    <li><a href="">Акции</a></li>
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Опт</a></li>
+                                    <li><a href="">Оплата</a></li>
+                                    <li><a href="">Блог</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="phone-wrap">
+                                <div class="phone-number">
+                                    <a href="tel:84951200000">+7 (495) 120-00-00</a>
+                                </div>
+                                <div class="phone-action">
+                                    <a href="" class="link-main">Заказать звонок </a>
+                                </div>
+                            </div>
+                            <div class="login-wrap">
+                                <ul>
+                                    <li><a href="">Вход</a></li>
+                                    <li><a href="">Регистрация</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/main-menu-wrap-->
+                    <!--header-actions-wrap-->
+                    <div class="header-actions-wrap">
+                        <!--action catalog-->
+                        <div class="action-wrap action-catalog main-catalog-wrap">
+                            <a href="" class="btn button-arrow js-catalog-toggle">
+                                <span class="button-title">Каталог товаров</span>
+                            </a>
+                        </div>
+                        <!--/action catalog-->
+                        <!--action seacrh-->
+                        <div class="action-wrap action-search main-search-wrap js-popup-wrap">
+                            <a href="" class="btn-action-ico btn button-header button-border ico-search js-btn-toggle"></a>
+                            <div class="search-content-block js-popup-block">
+                                <form action="/" class="frm-main-search">
+                                    <input type="text" class="form-input" placeholder="Поиск по каталогу">
+                                    <button type="submit" class="btn-action-ico ico-search"></button>
+                                </form>
+                            </div>
+                        </div>
+                        <!--/action seacrh-->
+                        <!--action-fav-->
+                        <div class="action-wrap action-fav">
+                            <a href="" class="btn-action-ico btn button-header button-border ico-fav"></a>
+                        </div>
+                        <!--/action-fav-->
+                        <!--action-cart-->
+                        <div class="action-wrap action-cart">
+                            <a href="" class="btn-action-ico btn button-header button-border ico-cart"></a>
+                            <div class="cart-title">Корзина пуста</div>
+                        </div>
+                        <!--/action-cart-->
+                    </div>
+                    <!--/header-actions-wrap-->
+                    <!--header-catalog-wrap-->
+                    <div class="header-catalog-wrap">
+                        <ul class="menu">
+                            <li>
+                                <a href="" class="btn-action-catalog">
+                                    <div class="btn-action-ico button-header">
+                                        <img src="./img/icons/menu01.svg" alt="">
+                                    </div>
+                                    <span class="button-title">Фрукты</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-action-catalog">
+                                    <div class="btn-action-ico button-header">
+                                        <img src="./img/icons/menu02.svg" alt="">
+                                    </div>
+                                    <span class="button-title">Овощи</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-action-catalog">
+                                    <div class="btn-action-ico button-header">
+                                        <img src="./img/icons/menu03.svg" alt="">
+                                    </div>
+                                    <span class="button-title">Зелень</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-action-catalog">
+                                    <div class="btn-action-ico button-header">
+                                        <img src="./img/icons/menu04.svg" alt="">
+                                    </div>
+                                    <span class="button-title">Специи</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-action-catalog">
+                                    <div class="btn-action-ico button-header">
+                                        <img src="./img/icons/menu05.svg" alt="">
+                                    </div>
+                                    <span class="button-title">Акции и скидки</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/header-catalog-wrap-->
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- page -->
+        <div class="page">
+            <br><br><br><br><br>
+            <ul>
+                <li><a href="main.html">Main</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="lk.html">Lk</a></li>
+                <li><a href="card.html">Card</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+            <br><br><br><br><br>
+        </div>
+        <!-- /page -->
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="inner-wrap">
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <img src="./img/main/logo-footer.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer-outer-wrap">
+                    <!--menu-->
+                    <div class="menu-outer-wrap">
+                        <div class="menu-inner-wrap">
+                            <div class="menu-wrap">
+                                <div class="menu-title">Зелень/Специи</div>
+                                <ul>
+                                    <li><a href="">Шпинат</a></li>
+                                    <li><a href="">Кинза</a></li>
+                                    <li><a href="">Базилик зеленый</a></li>
+                                    <li><a href="">Базилик красный</a></li>
+                                    <li><a href="">Мята</a></li>
+                                    <li><a href="">Розмарин</a></li>
+                                    <li><a href="">Укроп</a></li>
+                                    <li><a href="">Лук зеленый</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-wrap">
+                                <div class="menu-title">Овощи</div>
+                                <ul>
+                                    <li><a href="">Салат</a></li>
+                                    <li><a href="">Романо салат</a></li>
+                                    <li><a href="">Грибы</a></li>
+                                    <li><a href="">Черри красные</a></li>
+                                    <li><a href="">Огурцы</a></li>
+                                    <li><a href="">Огурцы (Светогор)</a></li>
+                                    <li><a href="">Черри желтые</a></li>
+                                    <li><a href="">Перез (Армения)</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-wrap">
+                                <div class="menu-title">Фрукты</div>
+                                <ul>
+                                    <li><a href="">Мандарин (Марокко)</a></li>
+                                    <li><a href="">Апельсин (Марокко)</a></li>
+                                    <li><a href="">Лимон (Африка)</a></li>
+                                    <li><a href="">Хурма/королек</a></li>
+                                    <li><a href="">Лимон (Узбекситан)</a></li>
+                                    <li><a href="">Апельсин (Иран)</a></li>
+                                    <li><a href="">Киви</a></li>
+                                    <li><a href="">Киви лысое</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-wrap">
+                                <div class="menu-title">О компании</div>
+                                <ul>
+                                    <li><a href="">О компании</a></li>
+                                    <li><a href="">Подписка на рассылку</a></li>
+                                    <li><a href="">Пользовательское соглашение</a></li>
+                                    <li><a href="">Видео</a></li>
+                                    <li><a href="">Отзывы</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-inner-wrap">
+                            <div class="menu-wrap">
+                                <div class="menu-title">Покупателям</div>
+                                <ul>
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Оплата</a></li>
+                                    <li><a href="">Депозит</a></li>
+                                    <li><a href="">Возврат</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-wrap">
+                                <div class="menu-title">Контакты</div>
+                                <ul>
+                                    <li><a href="">Как нас найти?</a></li>
+                                    <li><a href="">Отправить сообщение</a></li>
+                                    <li><a href="">Реквизиты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/menu-->
+                    <!--info-outer-wrap-->
+                    <div class="info-outer-wrap">
+                        <div class="pays-wrap">
+                            <div class="footer-title">Принимаем к оплате:</div>
+                            <div class="pays-items items">
+                                <div class="elm-pay">
+                                    <img src="./img/icons/pay-mc.svg" alt="">
+                                </div>
+                                <div class="elm-pay">
+                                    <img src="./img/icons/pay-visa.svg" alt="">
+                                </div>
+                                <div class="elm-pay">
+                                    <img src="./img/icons/pay-mir.svg" alt="">
+                                </div>
+                                <div class="elm-pay">
+                                    <img src="./img/icons/pay-yd.svg" alt="">
+                                </div>
+                                <div class="elm-pay">
+                                    <img src="./img/icons/pay-gp.svg" alt="">
+                                </div>
+                                <div class="elm-pay">
+                                    <img src="./img/icons/pay-ap.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="soc-wrap">
+                            <div class="footer-title">Мы в соц.сетях:</div>
+                            <div class="soc-items items">
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-fb.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-tw.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-yt.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-vk.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-ok.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc-inst.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ms-wrap">
+                            <div class="footer-title">Пишите нам в:</div>
+                            <div class="ms-items items">
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/ms-skype.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/ms-tg.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/ms-vb.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/ms-wa.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/info-outer-wrap-->
+                    <!--copy-->
+                    <div class="copy-wrap">© 2022 propitanie.ru Все права защищены. Политика конфиденциальности</div>
+                    <!--/copy-->
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+    </div>
+    <!-- /wrap -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.ui.touch-punch.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <div class="bottom-outer-box">
+        <!--catalog-menu-box-->
+        <div class="catalog-menu-box">
+            <a href="" class="btn-menu-toggle">Каталог</a>
+            <div class="catalog-content-block">
+                <a href="" class="btn-action-ico ico-close js-catalog-toggle"></a>
+                <ul class="menu">
+                    <li class="open">
+                        <a href="" class="btn-menu">
+                            <span class="button-ico">
+                                <img src="./img/icons/menu01.svg" alt="">
+                            </span>
+                            <span class="button-title">Фрукты</span>
+                        </a>
+                        <ul>
+                            <li><a href="">Мандарин (Марокко)</a></li>
+                            <li><a href="">Апельсин (Марокко)</a></li>
+                            <li><a href="">Лимон (АФрика)</a></li>
+                            <li><a href="">Хурма/королек</a></li>
+                            <li><a href="">Лимон (Узбекистан)</a></li>
+                            <li><a href="">Апельсин (Иран)</a></li>
+                            <li><a href="">Киви</a></li>
+                            <li><a href="">Киви лысое</a></li>
+                        </ul>
+                    </li>
+                    <li class="open">
+                        <a href="" class="btn-menu">
+                            <span class="button-ico">
+                                <img src="./img/icons/menu02.svg" alt="">
+                            </span>
+                            <span class="button-title">Овощи</span>
+                        </a>
+                        <ul>
+                            <li><a href="">Перец острый зеленый (Армения)</a></li>
+                            <li><a href="">Грибы</a></li>
+                            <li><a href="">Огурцы</a></li>
+                            <li><a href="">Огурцы (Святогор)</a></li>
+                            <li><a href="">Черри (плам)</a></li>
+                            <li><a href="">Черри (желтые)</a></li>
+                        </ul>
+                    </li>
+                    <li class="open">
+                        <a href="" class="btn-menu">
+                            <span class="button-ico">
+                                <img src="./img/icons/menu03.svg" alt="">
+                            </span>
+                            <span class="button-title">Зелень</span>
+                        </a>
+                        <ul>
+                            <li><a href="">Шпинат</a></li>
+                            <li><a href="">Кинза</a></li>
+                            <li><a href="">Базилик зеленый</a></li>
+                            <li><a href="">Базилик красный</a></li>
+                            <li><a href="">Мята</a></li>
+                            <li><a href="">Размарин</a></li>
+                            <li><a href="">Романо салат</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="btn-menu">
+                            <span class="button-ico">
+                                <img src="./img/icons/menu04.svg" alt="">
+                            </span>
+                            <span class="button-title">Специи</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="btn-menu">
+                            <span class="button-ico">
+                                <img src="./img/icons/menu05.svg" alt="">
+                            </span>
+                            <span class="button-title">Акции и скидки</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/catalog-menu-box-->
+        <!--filter-box-->
+        <div class="filter-box">
+            <a href="" class="btn-filter">
+                <span class="button-ico">
+                    <img src="./img/icons/menu-filter.svg" alt="">
+                </span>
+                <span class="button-title">Фильтр</span>
+            </a>
+            <div class="filter-content-block">
+                <a href="" class="btn-action-ico ico-close js-filter-toggle"></a>
+                <!--filter-sections-wrap-->
+                <div class="filter-sections-wrap">
+                    <!--filter-section-wrap-->
+                    <div class="filter-section-wrap">
+                        <div class="filter-section-title">Цена</div>
+                        <div class="filter-section-content">
+                            <div class="frm-field-range">
+                                <div class="field-range-wrap">
+                                    <div class="range-wrap">
+                                        <input type="text" class="form-input" placeholder="0" id="range-slider-min">
+                                    </div>
+                                    <div class="range-wrap">
+                                        <input type="text" class="form-input" placeholder="000" id="range-slider-max">
+                                    </div>
+                                </div>
+                                <div id="range-slider"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/filter-section-wrap-->
+                    <!--filter-section-wrap-->
+                    <div class="filter-section-wrap">
+                        <div class="filter-section-title">Вид</div>
+                        <div class="filter-section-content">
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter01" checked>
+                                <label for="filter01">Упаковка</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter02" checked>
+                                <label for="filter02">На развес</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter03">
+                                <label for="filter03">Коробка</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/filter-section-wrap-->
+                    <!--filter-section-wrap-->
+                    <div class="filter-section-wrap">
+                        <div class="filter-section-title">Содержит</div>
+                        <div class="filter-section-content">
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter04">
+                                <label for="filter04">Натуральные ингредиенты</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter05" checked>
+                                <label for="filter05">Витамины</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter06" checked>
+                                <label for="filter06">Минеральные вещества</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter07">
+                                <label for="filter07">Натуральные ароматизаторы</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter08">
+                                <label for="filter08">Сахар</label>
+                            </div>
+                            <div class="filter-hidden">
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter09">
+                                    <label for="filter09">Натуральные ингредиенты</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter10">
+                                    <label for="filter10">Витамины</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter11">
+                                    <label for="filter11">Минеральные вещества</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter12">
+                                    <label for="filter12">Натуральные ароматизаторы</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter13">
+                                    <label for="filter13">Сахар</label>
+                                </div>
+                            </div>
+                            <div class="link-wrap">
+                                <a href="" data-show="Развернуть еще" data-hide="Свернуть" class="link-main"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/filter-section-wrap-->
+                    <!--filter-section-wrap-->
+                    <div class="filter-section-wrap">
+                        <div class="filter-section-title">Не содержит</div>
+                        <div class="filter-section-content">
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter14">
+                                <label for="filter14">ГМО</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter15">
+                                <label for="filter15">Искусственные добавки</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter16">
+                                <label for="filter16">Искусственные красители</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter17" checked>
+                                <label for="filter17">Консерванты</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter18" checked>
+                                <label for="filter18">Ароматизаторы</label>
+                            </div>
+                            <div class="filter-hidden">
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter19">
+                                    <label for="filter19">ГМО</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter20">
+                                    <label for="filter20">Искусственные добавки</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter21">
+                                    <label for="filter21">Искусственные красители</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter22">
+                                    <label for="filter22">Консерванты</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter23">
+                                    <label for="filter23">Ароматизаторы</label>
+                                </div>
+                            </div>
+                            <div class="link-wrap">
+                                <a href="" data-show="Развернуть еще" data-hide="Свернуть" class="link-main"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/filter-section-wrap-->
+                    <!--filter-section-wrap-->
+                    <div class="filter-section-wrap">
+                        <div class="filter-section-title">Страна изготовитель</div>
+                        <div class="filter-section-content">
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter24">
+                                <label for="filter24">Россия</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter25" checked>
+                                <label for="filter25">Вьетнам</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter26" checked>
+                                <label for="filter26">Иран</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter27">
+                                <label for="filter27">Турция</label>
+                            </div>
+                            <div class="frm-select select-inner">
+                                <input type="checkbox" id="filter28">
+                                <label for="filter28">Чили</label>
+                            </div>
+                            <div class="filter-hidden">
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter29">
+                                    <label for="filter29">Россия</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter30">
+                                    <label for="filter30">Вьетнам</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter31">
+                                    <label for="filter31">Иран</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter32">
+                                    <label for="filter32">Турция</label>
+                                </div>
+                                <div class="frm-select select-inner">
+                                    <input type="checkbox" id="filter33">
+                                    <label for="filter33">Чили</label>
+                                </div>
+                            </div>
+                            <div class="link-wrap">
+                                <a href="" data-show="Развернуть еще" data-hide="Свернуть" class="link-main"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/filter-section-wrap-->
+                </div>
+                <!--/filter-sections-wrap-->
+            </div>
+        </div>
+        <!--/filter-box-->
+    </div>
+
+</body>
+
+</html>
