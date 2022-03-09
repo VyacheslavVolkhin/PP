@@ -289,6 +289,20 @@ $(document).ready(function(){
     }
 
 
+    //total-select-box
+    if (!!$('.total-select-box').offset()) {
+        $('.total-select-box .slider').slick({
+            dots: false,
+            slidesToShow: 1,
+            variableWidth: false,
+            infinite: true,
+            adaptiveHeight: false,
+            prevArrow: '<span class="btn-action-ico ico-arrow ico-arrow-prev"></span>',
+            nextArrow: '<span class="btn-action-ico ico-arrow ico-arrow-next"></span>',
+        });
+    }
+
+
     //#range-slider
     if (!!$('#range-slider').offset()) {
         $('#range-slider').slider({
